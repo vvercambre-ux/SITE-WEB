@@ -20,7 +20,7 @@ export default function PanierPage() {
           </p>
           <Link
             href="/boutique"
-            className="inline-flex items-center gap-2 bg-[#0A0A0A] text-white px-10 py-4 text-sm tracking-widest uppercase hover:bg-[#C9A96E] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#0A0A0A] text-white px-10 py-4 text-sm tracking-widest uppercase hover:bg-[#C8924A] transition-colors"
           >
             Découvrir la boutique
           </Link>
@@ -37,7 +37,7 @@ export default function PanierPage() {
       {/* Header */}
       <section className="bg-[#F5F0EB] py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs tracking-[0.3em] uppercase text-[#C9A96E] mb-2">Panier</p>
+          <p className="text-xs tracking-[0.3em] uppercase text-[#C8924A] mb-2">Panier</p>
           <h1 className="font-display text-3xl lg:text-4xl font-semibold">
             Votre sélection ({items.length} article{items.length > 1 ? "s" : ""})
           </h1>
@@ -53,14 +53,14 @@ export default function PanierPage() {
               {!shippingFree && (
                 <div className="bg-[#F5F0EB] p-4 mb-8">
                   <div className="flex items-center gap-2 mb-2">
-                    <Truck size={16} className="text-[#C9A96E]" />
+                    <Truck size={16} className="text-[#C8924A]" />
                     <p className="text-sm">
                       Plus que <span className="font-semibold">{remaining.toFixed(0)} €</span> pour la livraison offerte
                     </p>
                   </div>
                   <div className="w-full h-1.5 bg-[#E5E5E5]">
                     <div
-                      className="h-full bg-[#C9A96E] transition-all duration-500"
+                      className="h-full bg-[#C8924A] transition-all duration-500"
                       style={{ width: `${Math.min(100, (totalPrice / 150) * 100)}%` }}
                     />
                   </div>
@@ -68,7 +68,7 @@ export default function PanierPage() {
               )}
               {shippingFree && (
                 <div className="bg-[#F5F0EB] p-4 mb-8 flex items-center gap-2">
-                  <Truck size={16} className="text-[#C9A96E]" />
+                  <Truck size={16} className="text-[#C8924A]" />
                   <p className="text-sm font-medium">Livraison offerte pour votre commande !</p>
                 </div>
               )}
@@ -90,7 +90,7 @@ export default function PanierPage() {
                         <div>
                           <Link
                             href={`/produit/${item.product.slug}`}
-                            className="text-sm font-medium hover:text-[#C9A96E] transition-colors"
+                            className="text-sm font-medium hover:text-[#C8924A] transition-colors"
                           >
                             {item.product.name}
                           </Link>
@@ -171,7 +171,7 @@ export default function PanierPage() {
                     {shippingFree ? totalPrice : totalPrice + 4.9} €
                   </span>
                 </div>
-                <button className="w-full bg-[#0A0A0A] text-white py-4 text-sm tracking-widest uppercase hover:bg-[#C9A96E] transition-colors mb-4">
+                <button className="w-full bg-[#0A0A0A] text-white py-4 text-sm tracking-widest uppercase hover:bg-[#C8924A] transition-colors mb-4">
                   Commander
                 </button>
                 <p className="text-[10px] text-[#6B6B6B] text-center">

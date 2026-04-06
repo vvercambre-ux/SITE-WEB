@@ -57,11 +57,12 @@ function BoutiqueContent() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#F5F0EB] py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-xs tracking-[0.3em] uppercase text-[#C9A96E] mb-3">Collection</p>
-          <h1 className="font-display text-4xl lg:text-5xl font-semibold mb-4">La Boutique</h1>
-          <p className="text-[#6B6B6B] max-w-lg mx-auto text-sm leading-relaxed">
+      <section className="bg-[#0A0A0A] py-20 lg:py-28 relative overflow-hidden">
+        <div className="absolute inset-0 grid-pattern opacity-30" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <p className="text-[10px] tracking-[0.3em] uppercase text-[#C8924A] mb-3">Collection</p>
+          <h1 className="font-display text-4xl lg:text-5xl font-semibold mb-4 text-white">La Boutique</h1>
+          <p className="text-white/50 max-w-lg mx-auto text-sm leading-relaxed">
             Explorez notre sélection de pièces mode soigneusement choisies. Des sacs aux sneakers, trouvez votre prochain coup de cœur.
           </p>
         </div>
@@ -171,7 +172,7 @@ export default function BoutiquePage() {
   return (
     <Suspense fallback={
       <div className="min-h-[60vh] flex items-center justify-center">
-        <div className="w-6 h-6 border-2 border-[#C9A96E] border-t-transparent rounded-full animate-spin" />
+        <div className="w-6 h-6 border-2 border-[#C8924A] border-t-transparent rounded-full animate-spin" />
       </div>
     }>
       <BoutiqueContent />

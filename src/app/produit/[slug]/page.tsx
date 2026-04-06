@@ -25,7 +25,7 @@ export default function ProductPage() {
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="text-center">
           <h1 className="font-display text-2xl font-semibold mb-4">Produit non trouvé</h1>
-          <Link href="/boutique" className="text-sm text-[#C9A96E] underline">
+          <Link href="/boutique" className="text-sm text-[#C8924A] underline">
             Retour à la boutique
           </Link>
         </div>
@@ -97,7 +97,7 @@ export default function ProductPage() {
 
           {/* Details */}
           <div className="lg:py-4">
-            <p className="text-xs tracking-[0.3em] uppercase text-[#C9A96E] mb-3">
+            <p className="text-xs tracking-[0.3em] uppercase text-[#C8924A] mb-3">
               {product.category === "sacs" ? "Sacs" : product.category === "sneakers" ? "Sneakers" : "Accessoires"}
             </p>
             <h1 className="font-display text-3xl lg:text-4xl font-semibold mb-4">{product.name}</h1>
@@ -109,7 +109,7 @@ export default function ProductPage() {
                   <Star
                     key={i}
                     size={14}
-                    className={i < Math.floor(product.rating) ? "fill-[#C9A96E] text-[#C9A96E]" : "text-[#E5E5E5]"}
+                    className={i < Math.floor(product.rating) ? "fill-[#C8924A] text-[#C8924A]" : "text-[#E5E5E5]"}
                   />
                 ))}
               </div>
@@ -124,7 +124,7 @@ export default function ProductPage() {
               {product.originalPrice && (
                 <>
                   <span className="text-lg text-[#6B6B6B] line-through">{product.originalPrice} €</span>
-                  <span className="bg-[#C9A96E] text-white text-xs px-2.5 py-1 tracking-wider uppercase">
+                  <span className="bg-[#C8924A] text-white text-xs px-2.5 py-1 tracking-wider uppercase">
                     -{Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}%
                   </span>
                 </>
@@ -199,7 +199,7 @@ export default function ProductPage() {
               </div>
               <button
                 onClick={handleAddToCart}
-                className="flex-1 bg-[#0A0A0A] text-white text-sm tracking-widest uppercase hover:bg-[#C9A96E] transition-colors duration-300"
+                className="flex-1 bg-[#0A0A0A] text-white text-sm tracking-widest uppercase hover:bg-[#C8924A] transition-colors duration-300"
               >
                 Ajouter au panier
               </button>
@@ -208,21 +208,21 @@ export default function ProductPage() {
             {/* Trust badges */}
             <div className="border-t border-[#E5E5E5] pt-6 space-y-4">
               <div className="flex items-center gap-3">
-                <Truck size={18} className="text-[#C9A96E]" />
+                <Truck size={18} className="text-[#C8924A]" />
                 <div>
                   <p className="text-sm font-medium">Livraison offerte dès 150€</p>
                   <p className="text-xs text-[#6B6B6B]">Expédition sous 24-48h</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <RotateCcw size={18} className="text-[#C9A96E]" />
+                <RotateCcw size={18} className="text-[#C8924A]" />
                 <div>
                   <p className="text-sm font-medium">Retours gratuits</p>
                   <p className="text-xs text-[#6B6B6B]">30 jours pour changer d&apos;avis</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <Shield size={18} className="text-[#C9A96E]" />
+                <Shield size={18} className="text-[#C8924A]" />
                 <div>
                   <p className="text-sm font-medium">Paiement sécurisé</p>
                   <p className="text-xs text-[#6B6B6B]">Visa, Mastercard, Apple Pay, PayPal</p>
@@ -236,7 +236,7 @@ export default function ProductPage() {
               <ul className="space-y-2">
                 {product.details.map((detail, i) => (
                   <li key={i} className="text-sm text-[#6B6B6B] flex items-start gap-2">
-                    <span className="w-1 h-1 bg-[#C9A96E] rounded-full mt-2 flex-shrink-0" />
+                    <span className="w-1 h-1 bg-[#C8924A] rounded-full mt-2 flex-shrink-0" />
                     {detail}
                   </li>
                 ))}
@@ -251,7 +251,7 @@ export default function ProductPage() {
         <section className="py-16 lg:py-24 bg-[#F8F8F8]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <p className="text-xs tracking-[0.3em] uppercase text-[#C9A96E] mb-3">Vous aimerez aussi</p>
+              <p className="text-xs tracking-[0.3em] uppercase text-[#C8924A] mb-3">Vous aimerez aussi</p>
               <h2 className="font-display text-2xl lg:text-3xl font-semibold">Produits similaires</h2>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">

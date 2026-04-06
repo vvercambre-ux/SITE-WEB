@@ -45,7 +45,7 @@ export default function CartSidebar() {
               <Link
                 href="/boutique"
                 onClick={() => setIsCartOpen(false)}
-                className="bg-[#0A0A0A] text-white px-8 py-3 text-sm tracking-wide uppercase hover:bg-[#C9A96E] transition-colors"
+                className="bg-[#0A0A0A] text-white px-8 py-3 text-sm tracking-wide uppercase hover:bg-[#C8924A] transition-colors"
               >
                 Explorer la boutique
               </Link>
@@ -110,7 +110,7 @@ export default function CartSidebar() {
             <Link
               href="/panier"
               onClick={() => setIsCartOpen(false)}
-              className="block w-full bg-[#0A0A0A] text-white text-center py-4 text-sm tracking-wide uppercase hover:bg-[#C9A96E] transition-colors"
+              className="block w-full bg-[#0A0A0A] text-white text-center py-4 text-sm tracking-wide uppercase hover:bg-[#C8924A] transition-colors"
             >
               Voir le panier — {totalPrice} €
             </Link>

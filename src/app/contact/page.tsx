@@ -9,7 +9,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="bg-[#F5F0EB] py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-xs tracking-[0.3em] uppercase text-[#C9A96E] mb-3">Contact</p>
+          <p className="text-xs tracking-[0.3em] uppercase text-[#C8924A] mb-3">Contact</p>
           <h1 className="font-display text-4xl lg:text-5xl font-semibold mb-4">Parlons ensemble</h1>
           <p className="text-[#6B6B6B] max-w-lg mx-auto text-sm leading-relaxed">
             Une question sur un produit, une commande ou une collaboration ? Notre équipe est là pour vous.
@@ -27,7 +27,7 @@ export default function ContactPage() {
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 bg-[#F5F0EB] flex items-center justify-center flex-shrink-0">
-                      <Mail size={18} className="text-[#C9A96E]" />
+                      <Mail size={18} className="text-[#C8924A]" />
                     </div>
                     <div>
                       <p className="text-sm font-medium mb-1">Email</p>
@@ -36,7 +36,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 bg-[#F5F0EB] flex items-center justify-center flex-shrink-0">
-                      <Phone size={18} className="text-[#C9A96E]" />
+                      <Phone size={18} className="text-[#C8924A]" />
                     </div>
                     <div>
                       <p className="text-sm font-medium mb-1">Téléphone</p>
@@ -45,7 +45,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 bg-[#F5F0EB] flex items-center justify-center flex-shrink-0">
-                      <MapPin size={18} className="text-[#C9A96E]" />
+                      <MapPin size={18} className="text-[#C8924A]" />
                     </div>
                     <div>
                       <p className="text-sm font-medium mb-1">Adresse</p>
@@ -57,7 +57,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 bg-[#F5F0EB] flex items-center justify-center flex-shrink-0">
-                      <Clock size={18} className="text-[#C9A96E]" />
+                      <Clock size={18} className="text-[#C8924A]" />
                     </div>
                     <div>
                       <p className="text-sm font-medium mb-1">Horaires</p>
@@ -122,7 +122,7 @@ export default function ContactPage() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full sm:w-auto bg-[#0A0A0A] text-white px-10 py-4 text-sm tracking-widest uppercase hover:bg-[#C9A96E] transition-colors"
+                  className="w-full sm:w-auto bg-[#0A0A0A] text-white px-10 py-4 text-sm tracking-widest uppercase hover:bg-[#C8924A] transition-colors"
                 >
                   Envoyer
                 </button>

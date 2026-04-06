@@ -12,13 +12,13 @@ export default function Footer() {
               L&apos;élégance accessible. Des pièces mode soigneusement sélectionnées pour celles qui veulent un style affirmé sans compromis sur la qualité.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-400 hover:text-[#C9A96E] transition-colors" aria-label="Instagram">
+              <a href="#" className="text-gray-400 hover:text-[#C8924A] transition-colors" aria-label="Instagram">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
               </a>
-              <a href="#" className="text-gray-400 hover:text-[#C9A96E] transition-colors" aria-label="Facebook">
+              <a href="#" className="text-gray-400 hover:text-[#C8924A] transition-colors" aria-label="Facebook">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
               </a>
-              <a href="#" className="text-gray-400 hover:text-[#C9A96E] transition-colors" aria-label="Twitter">
+              <a href="#" className="text-gray-400 hover:text-[#C8924A] transition-colors" aria-label="Twitter">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
               </a>
             </div>
@@ -26,7 +26,7 @@ export default function Footer() {
 
           {/* Boutique */}
           <div>
-            <h4 className="text-xs tracking-widest uppercase mb-6 text-[#C9A96E]">Boutique</h4>
+            <h4 className="text-xs tracking-widest uppercase mb-6 text-[#C8924A]">Boutique</h4>
             <ul className="space-y-3">
               <li><Link href="/boutique?cat=sacs" className="text-sm text-gray-400 hover:text-white transition-colors">Sacs</Link></li>
               <li><Link href="/boutique?cat=sneakers" className="text-sm text-gray-400 hover:text-white transition-colors">Sneakers</Link></li>
@@ -38,7 +38,7 @@ export default function Footer() {
 
           {/* Informations */}
           <div>
-            <h4 className="text-xs tracking-widest uppercase mb-6 text-[#C9A96E]">Informations</h4>
+            <h4 className="text-xs tracking-widest uppercase mb-6 text-[#C8924A]">Informations</h4>
             <ul className="space-y-3">
               <li><Link href="/a-propos" className="text-sm text-gray-400 hover:text-white transition-colors">À propos</Link></li>
               <li><Link href="/contact" className="text-sm text-gray-400 hover:text-white transition-colors">Contact</Link></li>
@@ -50,7 +50,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-xs tracking-widest uppercase mb-6 text-[#C9A96E]">Contact</h4>
+            <h4 className="text-xs tracking-widest uppercase mb-6 text-[#C8924A]">Contact</h4>
             <ul className="space-y-3 text-sm text-gray-400">
               <li>hello@maisonelara.com</li>
               <li>+33 1 23 45 67 89</li>
